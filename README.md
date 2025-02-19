@@ -1,1 +1,1 @@
-# soul_weather
+# seoul_weather
