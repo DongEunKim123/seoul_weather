@@ -1,10 +1,10 @@
-name: Fetch Seoul Weather Data
+name: Fetch Seoul Weather Data # 깃허브 액션에서 workflows의 이름
 
 on:
   schedule:
     - cron: "*/1 * * * *"  # 1분마다 실행
   workflow_dispatch:  # 수동 실행 가능
-  push:
+  push: # on push 어떤 event가 발생했을 때에 해당(push, pull_request, create 등)
     branches:
       - main
 
